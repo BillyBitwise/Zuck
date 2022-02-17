@@ -175,9 +175,9 @@ go();
 
 //***** Global functions *****
 //****************************
-function Lionel()				{ confirm("Hello, Is it me you're looking for?"); }
-function getMe(id)				{ return document.getElementById(id); }	
-function getColour(id)			{ return getMe(id).value; }
+function Lionel()		{ confirm("Hello, Is it me you're looking for?"); }
+function getMe(id)		{ return document.getElementById(id); }	
+function getColour(id)		{ return getMe(id).value; }
 function setColour(id, colour)	{ getMe(id).style.backgroundColor= colour; }
 
 
@@ -191,8 +191,8 @@ function level()
 					zucc.clear();
 					for(let z=1; z < 5; z++)	{ zucc.add(Number(z)); }
 					zucc.meals		= 0;
-					zucc.topspeed	= 150;
-					zucc.speed 		= 150;
+					zucc.topspeed	= 175;
+					zucc.speed 		= 175;
 					zucc.direction 	= "d";
 					zucc.paint();
 				
@@ -209,8 +209,8 @@ function level()
 					zucc.clear();
 					for(let z=1; z < 6; z++)	{ zucc.add(Number(z)); }
 					zucc.meals 		= 0;
-					zucc.topspeed	= 150;
-					zucc.speed 		= 150;
+					zucc.topspeed	= 175;
+					zucc.speed 		= 175;
 					zucc.direction 	= "r";
 					zucc.colour		= "yellow";
 					zucc.paint();
@@ -229,7 +229,7 @@ function level()
 					for(let z=135; z > 129; z--)	{ zucc.add(Number(z)); }
 					zucc.meals 		= 0;
 					zucc.topspeed	= 125;
-					zucc.speed 		= 125;
+					zucc.speed 		= 175;
 					zucc.direction 	= "l";
 					zucc.colour		= "orange";
 					zucc.paint();
@@ -248,7 +248,7 @@ function level()
 					for(let z=12; z < 17; z++)	{ zucc.add(Number(z)); }
 					zucc.meals 		= 0;
 					zucc.topspeed	= 100;
-					zucc.speed 		= 100;
+					zucc.speed 		= 175;
 					zucc.direction 	= "r";
 					zucc.colour		= "white";
 					zucc.paint();
@@ -267,7 +267,7 @@ function level()
 					for(let z=322; z >312; z--)	{ zucc.add(Number(z)); }
 					zucc.meals 		= 0;
 					zucc.topspeed	= 130;
-					zucc.speed 		= 130;
+					zucc.speed 		= 175;
 					zucc.direction 	= "l";
 					zucc.colour		= "yellow";
 					zucc.paint();
