@@ -191,8 +191,8 @@ function level()
 					zucc.clear();
 					for(let z=1; z < 5; z++)	{ zucc.add(Number(z)); }
 					zucc.meals		= 0;
-					zucc.topspeed	= 175;
-					zucc.speed 		= 175;
+					zucc.topspeed	= 200;
+					zucc.speed 		= 200;
 					zucc.direction 	= "d";
 					zucc.paint();
 				
@@ -209,8 +209,8 @@ function level()
 					zucc.clear();
 					for(let z=1; z < 6; z++)	{ zucc.add(Number(z)); }
 					zucc.meals 		= 0;
-					zucc.topspeed	= 175;
-					zucc.speed 		= 175;
+					zucc.topspeed	= 200;
+					zucc.speed 		= 200;
 					zucc.direction 	= "r";
 					zucc.colour		= "yellow";
 					zucc.paint();
@@ -228,8 +228,8 @@ function level()
 					zucc.clear();
 					for(let z=135; z > 129; z--)	{ zucc.add(Number(z)); }
 					zucc.meals 		= 0;
-					zucc.topspeed	= 125;
-					zucc.speed 		= 175;
+					zucc.topspeed	= 200;
+					zucc.speed 		= 200;
 					zucc.direction 	= "l";
 					zucc.colour		= "orange";
 					zucc.paint();
@@ -247,8 +247,8 @@ function level()
 					zucc.clear();
 					for(let z=12; z < 17; z++)	{ zucc.add(Number(z)); }
 					zucc.meals 		= 0;
-					zucc.topspeed	= 100;
-					zucc.speed 		= 175;
+					zucc.topspeed	= 200;
+					zucc.speed 		= 200;
 					zucc.direction 	= "r";
 					zucc.colour		= "white";
 					zucc.paint();
@@ -266,8 +266,8 @@ function level()
 					zucc.clear();
 					for(let z=322; z >312; z--)	{ zucc.add(Number(z)); }
 					zucc.meals 		= 0;
-					zucc.topspeed	= 130;
-					zucc.speed 		= 175;
+					zucc.topspeed	= 200;
+					zucc.speed 		= 200;
 					zucc.direction 	= "l";
 					zucc.colour		= "yellow";
 					zucc.paint();
